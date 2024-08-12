@@ -4,7 +4,9 @@
 
 ## Project Overview
 
-This repository contains the code and documentation for our Raspberry Pi project. The main components are:
+This project aims to provide a cost-effective, non-invasive, and scalable solution for building occupancy monitoring using Bluetooth Low Energy (BLE) technology. Our system is designed to benefit various applications, including public health, emergency response, energy efficiency, and space utilization.
+
+### Key Components
 
 - `raspi_sender.py`: Script for the Raspberry Pi to send data
 - `ble_receiver.py`: Script for receiving data via Bluetooth Low Energy
@@ -13,15 +15,7 @@ This repository contains the code and documentation for our Raspberry Pi project
 
 **Note:** The algorithm and server-side code repositories are private due to university restrictions on publicly displaying project code.
 
-For full details on the project, methodology, and results, please refer to our [final report](./No.100_final_report.pdf).
-
-## Additional Information
-
-### Project Purpose
-
-This project aims to provide a cost-effective, non-invasive, and scalable solution for building occupancy monitoring using Bluetooth Low Energy (BLE) technology. Our system is designed to benefit various applications, including public health, emergency response, energy efficiency, and space utilization.
-
-### System Overview
+### System Architecture
 
 - Hardware: 4 Raspberry Pi Zero W devices for BLE scanning, connected via WiFi hotspot hosted by a Raspberry Pi 4
 - Data Flow: BLE scanners detect devices, data is aggregated by the Raspberry Pi 4, and then processed on a server-side laptop
@@ -41,15 +35,9 @@ This project aims to provide a cost-effective, non-invasive, and scalable soluti
 - Triangulation for device localization using RSSI values
 - DBSCAN clustering for occupancy estimation
 
-### Challenges and Limitations
+### Challenges and Future Improvements
 
-- MAC address randomization in modern devices
-- Signal reflection issues in indoor environments
-- Power supply management for Raspberry Pi devices
-
-### Future Improvements
-
-- Refining algorithms to address MAC address randomization and signal reflection
+- Addressing MAC address randomization and signal reflection issues
 - Implementing more secure data transmission protocols (e.g., MQTT)
 - Exploring efficient power solutions for continuous operation
 
@@ -60,22 +48,8 @@ This project aims to provide a cost-effective, non-invasive, and scalable soluti
 - Ada
 - Leo
 
-### Repository Structure
-
-- `raspi_sender.py`: Script for the Raspberry Pi to send data
-- `ble_receiver.py`: Script for receiving data via Bluetooth Low Energy
-
-### Related Repositories (Private)
-
-- [Algorithm side code](https://github.com/classmateada/6733-algorithm-scaffold)
-- [Server side code](https://github.com/classmateada/6733-server) including database
-
-Note: These repositories are private due to university restrictions on publicly displaying project code.
-
 ### Acknowledgements
 
-We would like to thank our university and professors for their support and guidance throughout this project.
-
-### For More Information
+We thank our university and professors for their support and guidance throughout this project.
 
 For full details on the project, methodology, and results, please refer to our [final report (PDF)](./No.100_final_report.pdf).
