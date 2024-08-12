@@ -48,6 +48,10 @@ This project aims to provide a cost-effective, non-invasive, and scalable soluti
 - Ada Mu
 - Dinghai Liang (Leo)
 
+### Project Timeline
+
+We utilised [Notion](https://groupno100.notion.site/c56f80fdda104c6697485e4dd5d9ef47?v=8ffe28424ebc44c5b77ca582853dccc9) to display our timeline and order of completing tasks 
+
 ### Acknowledgements
 
 We thank our university and professors for their support and guidance throughout this project.
