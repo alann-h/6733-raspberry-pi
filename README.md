@@ -8,8 +8,8 @@ This project aims to provide a cost-effective, non-invasive, and scalable soluti
 
 ### Key Components
 
-- `raspi_sender.py`: Script for the Raspberry Pi to send data
-- `ble_receiver.py`: Script for receiving data via Bluetooth Low Energy
+- `ble_scanner.py`: Script for the Raspberry Pi Zero to send data (through WiFi)
+- `WiFi_server.py`: Script for receiving data via WiFi on a Raspberry Pi 4
 - Algorithm code on the server: [algorithm side code](https://github.com/classmateada/6733-algorithm-scaffold) (private repository)
 - [Server side code](https://github.com/classmateada/6733-server) including database (private repository)
 
