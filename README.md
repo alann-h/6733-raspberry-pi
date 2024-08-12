@@ -11,10 +11,10 @@ This repository contains the code and documentation for our Raspberry Pi project
 - Algorithim code on the server [algorithim side code](https://github.com/classmateada/6733-algorithm-scaffold)
 - [Sever side code](https://github.com/classmateada/6733-server) including database
 
-Note: The algorithm and server-side code repositories are private due to university restrictions on publicly displaying project code.
+**Note:** The algorithm and server-side code repositories are private due to university restrictions on publicly displaying project code.
 
 For full details on the project, methodology, and results, please refer to our [final report](./No.100_final_report.pdf).
 
 ## Additional Information
 
-[Any other content you want to keep in your README]
+
