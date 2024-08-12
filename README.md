@@ -9,7 +9,7 @@ This project aims to provide a cost-effective, non-invasive, and scalable soluti
 ### Key Components
 
 - `ble_scanner.py`: Script for the Raspberry Pi Zero to send data (through WiFi)
-- `WiFi_server.py`: Script for receiving data via WiFi on a Raspberry Pi 4
+- `wifi_server.py`: Script for receiving data via WiFi on a Raspberry Pi 4
 - Algorithm code on the server: [algorithm side code](https://github.com/classmateada/6733-algorithm-scaffold) (private repository)
 - [Server side code](https://github.com/classmateada/6733-server) including database (private repository)
 
