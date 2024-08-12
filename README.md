@@ -43,10 +43,10 @@ This project aims to provide a cost-effective, non-invasive, and scalable soluti
 
 ### Team Members
 
-- Alan
-- Xiang
-- Ada
-- Leo
+- Alan Hattom
+- Xiangxiang Li
+- Ada Mu
+- Dinghai Liang (Leo)
 
 ### Acknowledgements
 
